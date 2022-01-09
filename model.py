@@ -22,7 +22,7 @@ def dftish(core, shell, dielectric, passivization, twodimensional) -> float:
         lig = json.load(lj)
         # print(lig)
     # print(cs)
-    return -2 + 0.002*((float(cs[c]) * float(cs[s])) / 2 + (float(cs[c]) * float(cs[s]) * float(twod[t])) / (
+    return 0.8*0.002*((float(cs[c]) * float(cs[s])) / 2 + (float(cs[c]) * float(cs[s]) * float(twod[t])) / (
         float(cs[c] + cs[s]))) * float(lig[p] + 1) / (100.0 - float(diel[d]) * 0.2)
 
 def streamdft(inputarray) -> float:

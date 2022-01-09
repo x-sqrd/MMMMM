@@ -30,7 +30,7 @@ def run(samples = 1000, gens=5000000):
     sortedlist.sort()
     if DEBUG:
         # print(sortedlist)
-        plotout(sortedlist, title="initial guess")
+        plotout(sortedlist, title="Final Values")
 
 
 def gen():
