@@ -1,5 +1,7 @@
-# SQRD Molecule Generator
+# MMMMM
 
-This is the repo for the Unikorn project Molecule generation algorithm. Expect updatees, and possibly maybe going public?
+**Massive Matter Modeling Monte-Carlo Method**
+
+A project by Ayush Nayak
 
 `Project Status: InDev`
